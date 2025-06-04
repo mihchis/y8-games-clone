@@ -2,6 +2,8 @@ import React from 'react';
 import { useParams } from 'react-router-dom';
 import styled from 'styled-components';
 import Reversi from '../../games/Reversi/Reversi';
+import Tetris from '../../games/Tetris';
+import Snake from '../../games/Snake';
 
 const GameDetailContainer = styled.div`
   padding: 2rem 0;
@@ -33,21 +35,9 @@ const GameDetail: React.FC = () => {
       case 'reversi':
         return <Reversi />;
       case 'tetris':
-        return (
-          <div style={{ textAlign: 'center', padding: '3rem' }}>
-            <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem', color: '#333' }}>Trò chơi Tetris đang được phát triển</h2>
-            <p style={{ color: '#666', marginBottom: '2rem' }}>Chúng tôi đang nỗ lực phát triển trò chơi Tetris. Vui lòng quay lại sau!</p>
-            <img src="/tetris-preview.svg" alt="Tetris Preview" style={{ maxWidth: '400px', width: '100%', border: '1px solid #ddd', borderRadius: '8px' }} />
-          </div>
-        );
+        return <Tetris />;
       case 'snake':
-        return (
-          <div style={{ textAlign: 'center', padding: '3rem' }}>
-            <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem', color: '#333' }}>Trò chơi Rắn Săn Mồi đang được phát triển</h2>
-            <p style={{ color: '#666', marginBottom: '2rem' }}>Chúng tôi đang nỗ lực phát triển trò chơi Rắn Săn Mồi. Vui lòng quay lại sau!</p>
-            <img src="/snake-preview.svg" alt="Snake Preview" style={{ maxWidth: '400px', width: '100%', border: '1px solid #ddd', borderRadius: '8px' }} />
-          </div>
-        );
+        return <Snake />;
       case 'puzzle':
         return (
           <div style={{ textAlign: 'center', padding: '3rem' }}>
