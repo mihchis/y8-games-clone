@@ -1,0 +1,31 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Grid -->
+  <g stroke="#ddd" stroke-width="1">
+    <line x1="50" y1="50" x2="350" y2="50" />
+    <line x1="50" y1="100" x2="350" y2="100" />
+    <line x1="50" y1="150" x2="350" y2="150" />
+    <line x1="50" y1="200" x2="350" y2="200" />
+    <line x1="50" y1="250" x2="350" y2="250" />
+    
+    <line x1="50" y1="50" x2="50" y2="250" />
+    <line x1="100" y1="50" x2="100" y2="250" />
+    <line x1="150" y1="50" x2="150" y2="250" />
+    <line x1="200" y1="50" x2="200" y2="250" />
+    <line x1="250" y1="50" x2="250" y2="250" />
+    <line x1="300" y1="50" x2="300" y2="250" />
+    <line x1="350" y1="50" x2="350" y2="250" />
+  </g>
+  
+  <!-- Snake -->
+  <rect x="150" y="150" width="50" height="50" fill="#00aa00" />
+  <rect x="100" y="150" width="50" height="50" fill="#00cc00" />
+  <rect x="100" y="100" width="50" height="50" fill="#00ee00" />
+  <rect x="100" y="50" width="50" height="50" fill="#00ff00" />
+  
+  <!-- Food -->
+  <circle cx="275" cy="175" r="20" fill="#ff0000" />
+  
+  <text x="200" y="30" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Snake Preview</text>
+</svg>

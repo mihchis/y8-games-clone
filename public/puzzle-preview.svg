@@ -1,0 +1,29 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <rect width="100%" height="100%" fill="#f0f0f0"/>
+  
+  <!-- Puzzle pieces -->
+  <g>
+    <!-- Row 1 -->
+    <rect x="75" y="75" width="50" height="50" fill="#ff5555" stroke="#333" stroke-width="2" />
+    <rect x="125" y="75" width="50" height="50" fill="#55ff55" stroke="#333" stroke-width="2" />
+    <rect x="175" y="75" width="50" height="50" fill="#5555ff" stroke="#333" stroke-width="2" />
+    <rect x="225" y="75" width="50" height="50" fill="#ffff55" stroke="#333" stroke-width="2" />
+    
+    <!-- Row 2 -->
+    <rect x="75" y="125" width="50" height="50" fill="#ff55ff" stroke="#333" stroke-width="2" />
+    <rect x="125" y="125" width="50" height="50" fill="#55ffff" stroke="#333" stroke-width="2" />
+    <rect x="175" y="125" width="50" height="50" fill="#aa5500" stroke="#333" stroke-width="2" />
+    <rect x="225" y="125" width="50" height="50" fill="#55aa00" stroke="#333" stroke-width="2" />
+    
+    <!-- Row 3 -->
+    <rect x="75" y="175" width="50" height="50" fill="#5500aa" stroke="#333" stroke-width="2" />
+    <rect x="125" y="175" width="50" height="50" fill="#aa0055" stroke="#333" stroke-width="2" />
+    <rect x="175" y="175" width="50" height="50" fill="#00aa55" stroke="#333" stroke-width="2" />
+    <rect x="225" y="175" width="50" height="50" fill="#aaaa55" stroke="#333" stroke-width="2" />
+    
+    <!-- Piece being moved -->
+    <rect x="275" y="125" width="50" height="50" fill="#ff9955" stroke="#333" stroke-width="3" />
+  </g>
+  
+  <text x="200" y="30" font-family="Arial" font-size="24" text-anchor="middle" fill="#333">Puzzle Preview</text>
+</svg>
