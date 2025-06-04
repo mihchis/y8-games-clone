@@ -1,0 +1,51 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nền -->
+  <rect width="300" height="300" fill="#faf8ef" />
+  
+  <!-- Tiêu đề -->
+  <text x="150" y="30" font-family="Arial" font-size="24" font-weight="bold" fill="#776e65" text-anchor="middle">2048</text>
+  
+  <!-- Bảng trò chơi -->
+  <rect x="50" y="50" width="200" height="200" rx="5" ry="5" fill="#bbada0" />
+  
+  <!-- Các ô trò chơi -->
+  <!-- Hàng 1 -->
+  <rect x="55" y="55" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  <rect x="105" y="55" width="45" height="45" rx="3" ry="3" fill="#eee4da" />
+  <text x="127.5" y="85" font-family="Arial" font-size="20" font-weight="bold" fill="#776e65" text-anchor="middle">2</text>
+  <rect x="155" y="55" width="45" height="45" rx="3" ry="3" fill="#eee4da" />
+  <text x="177.5" y="85" font-family="Arial" font-size="20" font-weight="bold" fill="#776e65" text-anchor="middle">2</text>
+  <rect x="205" y="55" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  
+  <!-- Hàng 2 -->
+  <rect x="55" y="105" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  <rect x="105" y="105" width="45" height="45" rx="3" ry="3" fill="#eee4da" />
+  <text x="127.5" y="135" font-family="Arial" font-size="20" font-weight="bold" fill="#776e65" text-anchor="middle">2</text>
+  <rect x="155" y="105" width="45" height="45" rx="3" ry="3" fill="#ede0c8" />
+  <text x="177.5" y="135" font-family="Arial" font-size="20" font-weight="bold" fill="#776e65" text-anchor="middle">4</text>
+  <rect x="205" y="105" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  
+  <!-- Hàng 3 -->
+  <rect x="55" y="155" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  <rect x="105" y="155" width="45" height="45" rx="3" ry="3" fill="#f3b27a" />
+  <text x="127.5" y="185" font-family="Arial" font-size="20" font-weight="bold" fill="#f9f6f2" text-anchor="middle">8</text>
+  <rect x="155" y="155" width="45" height="45" rx="3" ry="3" fill="#f2b179" />
+  <text x="177.5" y="185" font-family="Arial" font-size="20" font-weight="bold" fill="#f9f6f2" text-anchor="middle">8</text>
+  <rect x="205" y="155" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  
+  <!-- Hàng 4 -->
+  <rect x="55" y="205" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  <rect x="105" y="205" width="45" height="45" rx="3" ry="3" fill="#cdc1b4" />
+  <rect x="155" y="205" width="45" height="45" rx="3" ry="3" fill="#f67c5f" />
+  <text x="177.5" y="235" font-family="Arial" font-size="20" font-weight="bold" fill="#f9f6f2" text-anchor="middle">16</text>
+  <rect x="205" y="205" width="45" height="45" rx="3" ry="3" fill="#edcf72" />
+  <text x="227.5" y="235" font-family="Arial" font-size="20" font-weight="bold" fill="#f9f6f2" text-anchor="middle">32</text>
+  
+  <!-- Điểm số -->
+  <rect x="50" y="260" width="90" height="30" rx="3" ry="3" fill="#bbada0" />
+  <text x="70" y="280" font-family="Arial" font-size="12" fill="#eee4da" text-anchor="middle">ĐIỂM</text>
+  <text x="120" y="280" font-family="Arial" font-size="14" font-weight="bold" fill="#ffffff" text-anchor="middle">768</text>
+  
+  <!-- Mô tả -->
+  <text x="150" y="280" font-family="Arial" font-size="14" fill="#776e65" text-anchor="middle">Kết hợp các ô số giống nhau</text>
+</svg>

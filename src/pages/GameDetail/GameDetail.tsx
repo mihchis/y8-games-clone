@@ -4,6 +4,14 @@ import styled from 'styled-components';
 import Reversi from '../../games/Reversi/Reversi';
 import Tetris from '../../games/Tetris';
 import Snake from '../../games/Snake';
+import DemoQuest from '../../games/DemoQuest';
+import Puzzle from '../../games/Puzzle';
+import Sudoku from '../../games/Sudoku';
+import Bomberman from '../../games/Bomberman';
+import Pong from '../../games/Pong';
+import Game2048 from '../../games/Game2048';
+import DinoRun from '../../games/DinoRun';
+import PacMan from '../../games/PacMan';
 
 const GameDetailContainer = styled.div`
   padding: 2rem 0;
@@ -38,14 +46,22 @@ const GameDetail: React.FC = () => {
         return <Tetris />;
       case 'snake':
         return <Snake />;
+      case 'demoquest':
+        return <DemoQuest />;
       case 'puzzle':
-        return (
-          <div style={{ textAlign: 'center', padding: '3rem' }}>
-            <h2 style={{ fontSize: '1.8rem', marginBottom: '1rem', color: '#333' }}>Trò chơi Ghép Hình đang được phát triển</h2>
-            <p style={{ color: '#666', marginBottom: '2rem' }}>Chúng tôi đang nỗ lực phát triển trò chơi Ghép Hình. Vui lòng quay lại sau!</p>
-            <img src="/puzzle-preview.svg" alt="Puzzle Preview" style={{ maxWidth: '400px', width: '100%', border: '1px solid #ddd', borderRadius: '8px' }} />
-          </div>
-        );
+        return <Puzzle />;
+      case 'sudoku':
+        return <Sudoku />;
+      case 'bomberman':
+        return <Bomberman />;
+      case 'pong':
+        return <Pong />;
+      case 'game2048':
+        return <Game2048 />;
+      case 'dinorun':
+        return <DinoRun />;
+      case 'pacman':
+        return <PacMan />;
       default:
         return (
           <GameNotFound>

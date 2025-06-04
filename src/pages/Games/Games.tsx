@@ -117,6 +117,48 @@ const Games: React.FC = () => {
       description: 'Thử thách trí tuệ với các câu đố ghép hình đầy màu sắc và thú vị.',
       image: 'puzzle.jpg',
       category: 'puzzle'
+    },
+    {
+      id: 'sudoku',
+      title: 'Sudoku',
+      description: 'Điền các số từ 1 đến 9 vào lưới sao cho mỗi hàng, cột và khối 3x3 không chứa số trùng lặp.',
+      image: 'sudoku.jpg',
+      category: 'puzzle'
+    },
+    {
+      id: 'bomberman',
+      title: 'Bomberman',
+      description: 'Đặt bom để phá vỡ các khối gạch và tiêu diệt đối thủ. Thu thập các vật phẩm để tăng sức mạnh.',
+      image: 'bomberman.jpg',
+      category: 'action'
+    },
+    {
+      id: 'pong',
+      title: 'Pong',
+      description: 'Trò chơi bóng bàn cổ điển, điều khiển thanh trượt để đánh bóng qua lại.',
+      image: 'pong.jpg',
+      category: 'action'
+    },
+    {
+      id: 'game2048',
+      title: '2048',
+      description: 'Kết hợp các ô số giống nhau để tạo ra ô có giá trị 2048 trong trò chơi giải đố này.',
+      image: '2048.jpg',
+      category: 'puzzle'
+    },
+    {
+      id: 'dinorun',
+      title: 'Khủng Long Chạy',
+      description: 'Điều khiển khủng long nhảy qua chướng ngại vật trong trò chơi chạy vô tận này.',
+      image: 'dinorun.jpg',
+      category: 'action'
+    },
+    {
+      id: 'pacman',
+      title: 'Pac-Man',
+      description: 'Điều khiển Pac-Man ăn tất cả các điểm trên bản đồ trong khi tránh các con ma.',
+      image: 'pacman.jpg',
+      category: 'action'
     }
   ];
 
@@ -126,7 +168,9 @@ const Games: React.FC = () => {
     { id: 'board', name: 'Trò chơi bàn cờ' },
     { id: 'puzzle', name: 'Câu đố' },
     { id: 'action', name: 'Hành động' },
-    { id: 'strategy', name: 'Chiến thuật' }
+    { id: 'strategy', name: 'Chiến thuật' },
+    { id: 'multiplayer', name: 'Nhiều người chơi' },
+    { id: 'classic', name: 'Trò chơi cổ điển' }
   ];
 
   const [activeCategory, setActiveCategory] = React.useState('all');

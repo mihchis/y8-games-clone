@@ -1,0 +1,44 @@
+<svg width="400" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="400" height="300" fill="#2c3e50" />
+  
+  <!-- Landscape -->
+  <rect x="0" y="200" width="400" height="100" fill="#27ae60" />
+  
+  <!-- Mountains -->
+  <polygon points="0,200 100,100 200,180 300,80 400,200" fill="#7f8c8d" />
+  
+  <!-- Sun -->
+  <circle cx="320" cy="80" r="40" fill="#f39c12" />
+  
+  <!-- Character -->
+  <g transform="translate(150, 180)">
+    <!-- Body -->
+    <rect x="-10" y="-30" width="20" height="30" fill="#3498db" />
+    <!-- Head -->
+    <circle cx="0" cy="-40" r="10" fill="#e74c3c" />
+    <!-- Arms -->
+    <line x1="-10" y1="-20" x2="-20" y2="-10" stroke="#3498db" stroke-width="5" />
+    <line x1="10" y1="-20" x2="20" y2="-10" stroke="#3498db" stroke-width="5" />
+    <!-- Legs -->
+    <line x1="-5" y1="0" x2="-10" y2="20" stroke="#3498db" stroke-width="5" />
+    <line x1="5" y1="0" x2="10" y2="20" stroke="#3498db" stroke-width="5" />
+  </g>
+  
+  <!-- Trees -->
+  <g transform="translate(50, 180)">
+    <rect x="-5" y="-30" width="10" height="30" fill="#795548" />
+    <polygon points="-20,-30 0,-60 20,-30" fill="#2ecc71" />
+    <polygon points="-15,-45 0,-70 15,-45" fill="#2ecc71" />
+  </g>
+  
+  <g transform="translate(350, 180)">
+    <rect x="-5" y="-30" width="10" height="30" fill="#795548" />
+    <polygon points="-20,-30 0,-60 20,-30" fill="#2ecc71" />
+    <polygon points="-15,-45 0,-70 15,-45" fill="#2ecc71" />
+  </g>
+  
+  <!-- Title -->
+  <text x="200" y="40" font-family="Arial" font-size="24" font-weight="bold" text-anchor="middle" fill="white">DemoQuest</text>
+  <text x="200" y="70" font-family="Arial" font-size="14" text-anchor="middle" fill="white">Phiêu lưu và khám phá</text>
+</svg>

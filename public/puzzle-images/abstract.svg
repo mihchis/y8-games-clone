@@ -1,0 +1,103 @@
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="100%" height="100%" fill="#121212"/>
+  
+  <!-- Abstract Shapes -->
+  <!-- Colorful Circles -->
+  <circle cx="80" cy="80" r="60" fill="#FF5555" opacity="0.8"/>
+  <circle cx="150" cy="120" r="40" fill="#55FF55" opacity="0.8"/>
+  <circle cx="200" cy="70" r="50" fill="#5555FF" opacity="0.8"/>
+  <circle cx="270" cy="100" r="45" fill="#FFFF55" opacity="0.8"/>
+  <circle cx="320" cy="60" r="35" fill="#FF55FF" opacity="0.8"/>
+  
+  <!-- Geometric Shapes -->
+  <rect x="50" y="150" width="80" height="80" fill="#55FFFF" opacity="0.7" transform="rotate(15, 90, 190)"/>
+  <rect x="150" y="180" width="100" height="60" fill="#FF9955" opacity="0.7" transform="rotate(-10, 200, 210)"/>
+  <rect x="270" y="150" width="70" height="90" fill="#99FF55" opacity="0.7" transform="rotate(25, 305, 195)"/>
+  
+  <!-- Triangles -->
+  <polygon points="50,300 100,230 150,300" fill="#FF5599" opacity="0.8"/>
+  <polygon points="180,320 230,250 280,320" fill="#55FF99" opacity="0.8"/>
+  <polygon points="300,310 350,240 400,310" fill="#9955FF" opacity="0.8"/>
+  
+  <!-- Lines -->
+  <g stroke-width="4" opacity="0.9">
+    <line x1="20" y1="20" x2="380" y2="380" stroke="#FFFFFF"/>
+    <line x1="380" y1="20" x2="20" y2="380" stroke="#FFFFFF"/>
+    <line x1="200" y1="20" x2="200" y2="380" stroke="#FFAA00"/>
+    <line x1="20" y1="200" x2="380" y2="200" stroke="#FFAA00"/>
+  </g>
+  
+  <!-- Curved Lines -->
+  <path d="M20,100 C100,50 300,350 380,100" stroke="#FF00FF" stroke-width="3" fill="none" opacity="0.7"/>
+  <path d="M20,300 C100,350 300,50 380,300" stroke="#00FFFF" stroke-width="3" fill="none" opacity="0.7"/>
+  
+  <!-- Random Dots -->
+  <g fill="#FFFFFF">
+    <circle cx="50" cy="50" r="3"/>
+    <circle cx="100" cy="30" r="2"/>
+    <circle cx="150" cy="60" r="4"/>
+    <circle cx="200" cy="40" r="3"/>
+    <circle cx="250" cy="70" r="2"/>
+    <circle cx="300" cy="30" r="4"/>
+    <circle cx="350" cy="50" r="3"/>
+    
+    <circle cx="30" cy="100" r="2"/>
+    <circle cx="70" cy="130" r="3"/>
+    <circle cx="120" cy="100" r="2"/>
+    <circle cx="170" cy="140" r="4"/>
+    <circle cx="230" cy="110" r="3"/>
+    <circle cx="280" cy="140" r="2"/>
+    <circle cx="330" cy="120" r="3"/>
+    <circle cx="370" cy="150" r="2"/>
+    
+    <circle cx="40" cy="200" r="3"/>
+    <circle cx="90" cy="220" r="2"/>
+    <circle cx="140" cy="190" r="4"/>
+    <circle cx="190" cy="230" r="3"/>
+    <circle cx="240" cy="200" r="2"/>
+    <circle cx="290" cy="240" r="4"/>
+    <circle cx="340" cy="210" r="3"/>
+    
+    <circle cx="60" cy="270" r="2"/>
+    <circle cx="110" cy="250" r="3"/>
+    <circle cx="160" cy="280" r="2"/>
+    <circle cx="210" cy="260" r="4"/>
+    <circle cx="260" cy="290" r="3"/>
+    <circle cx="310" cy="270" r="2"/>
+    <circle cx="360" cy="300" r="3"/>
+    
+    <circle cx="50" cy="330" r="3"/>
+    <circle cx="100" cy="350" r="2"/>
+    <circle cx="150" cy="320" r="4"/>
+    <circle cx="200" cy="360" r="3"/>
+    <circle cx="250" cy="330" r="2"/>
+    <circle cx="300" cy="370" r="4"/>
+    <circle cx="350" cy="340" r="3"/>
+  </g>
+  
+  <!-- Gradient Overlay -->
+  <rect width="400" height="400" fill="url(#gradient)" opacity="0.3"/>
+  
+  <!-- Gradient Definition -->
+  <defs>
+    <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF0000" stop-opacity="0.5"/>
+      <stop offset="25%" stop-color="#FFFF00" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#00FF00" stop-opacity="0.5"/>
+      <stop offset="75%" stop-color="#0000FF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FF00FF" stop-opacity="0.5"/>
+    </linearGradient>
+  </defs>
+  
+  <!-- Radial Burst -->
+  <circle cx="200" cy="200" r="100" fill="url(#radialGradient)" opacity="0.6"/>
+  
+  <!-- Radial Gradient Definition -->
+  <defs>
+    <radialGradient id="radialGradient" cx="50%" cy="50%" r="50%" fx="50%" fy="50%">
+      <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+</svg>

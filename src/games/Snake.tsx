@@ -233,7 +233,11 @@ const Snake: React.FC = () => {
 
   // Tạo thức ăn mới
   const generateFood = (currentSnake: SnakePart[]) => {
-    let newFood: SnakePart;
+    // Khởi tạo newFood với giá trị mặc định
+    let newFood: SnakePart = {
+      x: Math.floor(Math.random() * BOARD_WIDTH),
+      y: Math.floor(Math.random() * BOARD_HEIGHT)
+    };
     let foodOnSnake = true;
     
     // Tạo thức ăn không nằm trên thân rắn

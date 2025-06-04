@@ -1,0 +1,61 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Nền -->
+  <rect width="300" height="300" fill="#f7f7f7" />
+  
+  <!-- Mặt đất -->
+  <line x1="0" y1="230" x2="300" y2="230" stroke="#535353" stroke-width="1" />
+  
+  <!-- Xương rồng -->
+  <g fill="#535353">
+    <!-- Xương rồng 1 -->
+    <rect x="200" y="200" width="15" height="30" />
+    <rect x="205" y="190" width="5" height="10" />
+    <rect x="195" y="205" width="5" height="10" />
+    <rect x="215" y="205" width="5" height="10" />
+    
+    <!-- Xương rồng 2 -->
+    <rect x="250" y="210" width="10" height="20" />
+    <rect x="245" y="215" width="5" height="10" />
+    <rect x="260" y="215" width="5" height="10" />
+  </g>
+  
+  <!-- Mây -->
+  <g fill="#f1f1f1" stroke="#d3d3d3" stroke-width="1">
+    <ellipse cx="80" cy="80" rx="25" ry="15" />
+    <ellipse cx="100" cy="80" rx="20" ry="12" />
+    <ellipse cx="60" cy="80" rx="20" ry="12" />
+    
+    <ellipse cx="240" cy="60" rx="25" ry="15" />
+    <ellipse cx="260" cy="60" rx="20" ry="12" />
+    <ellipse cx="220" cy="60" rx="20" ry="12" />
+  </g>
+  
+  <!-- Khủng long -->
+  <g fill="#535353">
+    <!-- Thân -->
+    <rect x="50" y="190" width="20" height="40" />
+    
+    <!-- Đầu -->
+    <rect x="70" y="180" width="24" height="20" />
+    <rect x="94" y="185" width="6" height="10" />
+    
+    <!-- Mắt -->
+    <circle cx="85" cy="187" r="2" fill="white" />
+    
+    <!-- Chân -->
+    <rect x="55" y="230" width="5" height="10" />
+    <rect x="65" y="230" width="5" height="10" />
+    
+    <!-- Tay -->
+    <rect x="65" y="195" width="5" height="5" />
+  </g>
+  
+  <!-- Điểm số -->
+  <text x="250" y="30" font-family="monospace" font-size="16" fill="#535353" text-anchor="end">00542</text>
+  
+  <!-- Tiêu đề -->
+  <text x="150" y="30" font-family="Arial" font-size="20" font-weight="bold" fill="#535353" text-anchor="middle">Khủng Long Chạy</text>
+  
+  <!-- Mô tả -->
+  <text x="150" y="270" font-family="Arial" font-size="14" fill="#535353" text-anchor="middle">Nhảy qua chướng ngại vật để sống sót</text>
+</svg>

@@ -80,6 +80,16 @@ const GameImage = styled.div`
   justify-content: center;
   font-weight: bold;
   color: #555;
+  position: relative;
+  
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
 `;
 
 const GameInfo = styled.div`
@@ -119,6 +129,12 @@ const Home: React.FC = () => {
       image: 'snake.jpg'
     },
     {
+      id: 'demoquest',
+      title: 'DemoQuest',
+      description: 'Game phiêu lưu với hiệu ứng cuộn parallax. Khám phá thế giới và giải quyết các câu đố.',
+      image: 'demoquest-preview.svg'
+    },
+    {
       id: 'puzzle',
       title: 'Ghép Hình',
       description: 'Thử thách trí tuệ với các câu đố ghép hình đầy màu sắc và thú vị.',
@@ -139,7 +155,10 @@ const Home: React.FC = () => {
         <GameGrid>
           {games.map(game => (
             <GameCard key={game.id} to={`/games/${game.id}`}>
-              <GameImage>{game.title}</GameImage>
+              <GameImage>
+                <img src={`/${game.image}`} alt={game.title} />
+                {!game.image && game.title}
+              </GameImage>
               <GameInfo>
                 <GameTitle>{game.title}</GameTitle>
                 <GameDescription>{game.description}</GameDescription>

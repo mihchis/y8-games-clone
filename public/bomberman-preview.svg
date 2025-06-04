@@ -1,0 +1,106 @@
+<svg width="300" height="300" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="300" height="300" fill="#8bac0f"/>
+  
+  <!-- Title -->
+  <text x="150" y="40" font-family="Arial" font-size="24" text-anchor="middle" fill="#fff" stroke="#333" stroke-width="1">Bomberman</text>
+  
+  <!-- Game Board Grid -->
+  <g transform="translate(50, 70)">
+    <!-- Main grid background -->
+    <rect width="200" height="160" fill="#8bac0f" stroke="#333" stroke-width="2"/>
+    
+    <!-- Walls -->
+    <rect x="0" y="0" width="20" height="20" fill="#333"/>
+    <rect x="40" y="0" width="20" height="20" fill="#333"/>
+    <rect x="80" y="0" width="20" height="20" fill="#333"/>
+    <rect x="120" y="0" width="20" height="20" fill="#333"/>
+    <rect x="160" y="0" width="20" height="20" fill="#333"/>
+    <rect x="180" y="0" width="20" height="20" fill="#333"/>
+    
+    <rect x="0" y="20" width="20" height="20" fill="#333"/>
+    <rect x="0" y="40" width="20" height="20" fill="#333"/>
+    <rect x="0" y="60" width="20" height="20" fill="#333"/>
+    <rect x="0" y="80" width="20" height="20" fill="#333"/>
+    <rect x="0" y="100" width="20" height="20" fill="#333"/>
+    <rect x="0" y="120" width="20" height="20" fill="#333"/>
+    <rect x="0" y="140" width="20" height="20" fill="#333"/>
+    
+    <rect x="180" y="20" width="20" height="20" fill="#333"/>
+    <rect x="180" y="40" width="20" height="20" fill="#333"/>
+    <rect x="180" y="60" width="20" height="20" fill="#333"/>
+    <rect x="180" y="80" width="20" height="20" fill="#333"/>
+    <rect x="180" y="100" width="20" height="20" fill="#333"/>
+    <rect x="180" y="120" width="20" height="20" fill="#333"/>
+    <rect x="180" y="140" width="20" height="20" fill="#333"/>
+    
+    <rect x="20" y="140" width="20" height="20" fill="#333"/>
+    <rect x="40" y="140" width="20" height="20" fill="#333"/>
+    <rect x="60" y="140" width="20" height="20" fill="#333"/>
+    <rect x="80" y="140" width="20" height="20" fill="#333"/>
+    <rect x="100" y="140" width="20" height="20" fill="#333"/>
+    <rect x="120" y="140" width="20" height="20" fill="#333"/>
+    <rect x="140" y="140" width="20" height="20" fill="#333"/>
+    <rect x="160" y="140" width="20" height="20" fill="#333"/>
+    
+    <!-- Inner walls -->
+    <rect x="40" y="40" width="20" height="20" fill="#333"/>
+    <rect x="80" y="40" width="20" height="20" fill="#333"/>
+    <rect x="120" y="40" width="20" height="20" fill="#333"/>
+    <rect x="160" y="40" width="20" height="20" fill="#333"/>
+    
+    <rect x="40" y="80" width="20" height="20" fill="#333"/>
+    <rect x="80" y="80" width="20" height="20" fill="#333"/>
+    <rect x="120" y="80" width="20" height="20" fill="#333"/>
+    <rect x="160" y="80" width="20" height="20" fill="#333"/>
+    
+    <rect x="40" y="120" width="20" height="20" fill="#333"/>
+    <rect x="80" y="120" width="20" height="20" fill="#333"/>
+    <rect x="120" y="120" width="20" height="20" fill="#333"/>
+    <rect x="160" y="120" width="20" height="20" fill="#333"/>
+    
+    <!-- Bricks -->
+    <rect x="60" y="20" width="20" height="20" fill="#a52a2a"/>
+    <rect x="100" y="20" width="20" height="20" fill="#a52a2a"/>
+    <rect x="140" y="20" width="20" height="20" fill="#a52a2a"/>
+    
+    <rect x="20" y="60" width="20" height="20" fill="#a52a2a"/>
+    <rect x="60" y="60" width="20" height="20" fill="#a52a2a"/>
+    <rect x="140" y="60" width="20" height="20" fill="#a52a2a"/>
+    
+    <rect x="100" y="100" width="20" height="20" fill="#a52a2a"/>
+    <rect x="140" y="100" width="20" height="20" fill="#a52a2a"/>
+    
+    <!-- Players -->
+    <circle cx="30" cy="30" r="8" fill="#0066cc"/>
+    <circle cx="170" cy="110" r="8" fill="#cc0000"/>
+    
+    <!-- Bomb -->
+    <circle cx="70" cy="90" r="8" fill="#000">
+      <animate attributeName="r" values="7;9;7" dur="1s" repeatCount="indefinite" />
+    </circle>
+    <circle cx="73" cy="87" r="2" fill="#fff"/>
+    
+    <!-- Explosion -->
+    <g>
+      <rect x="100" y="60" width="20" height="20" fill="#ff6600">
+        <animate attributeName="opacity" values="1;0.7;1" dur="0.5s" repeatCount="indefinite" />
+      </rect>
+      <rect x="120" y="60" width="20" height="20" fill="#ff6600">
+        <animate attributeName="opacity" values="1;0.7;1" dur="0.5s" repeatCount="indefinite" />
+      </rect>
+      <rect x="100" y="80" width="20" height="20" fill="#ff6600">
+        <animate attributeName="opacity" values="1;0.7;1" dur="0.5s" repeatCount="indefinite" />
+      </rect>
+    </g>
+    
+    <!-- Powerup -->
+    <circle cx="130" cy="110" r="6" fill="#ff9900" stroke="#fff" stroke-width="1">
+      <animate attributeName="stroke-width" values="1;2;1" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+  
+  <!-- Description -->
+  <text x="150" y="250" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">Đặt bom, phá gạch và tiêu diệt đối thủ</text>
+  <text x="150" y="270" font-family="Arial" font-size="14" text-anchor="middle" fill="#fff">trong trò chơi hành động kinh điển</text>
+</svg>
